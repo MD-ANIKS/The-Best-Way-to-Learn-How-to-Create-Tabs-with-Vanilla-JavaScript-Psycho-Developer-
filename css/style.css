@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #ecf4f9;
+}
+/* ==================================================== 
+Tab title - css
+==================================================== */
+.tab-title {
+  text-align: center;
+  padding: 60px 0px;
+}
+.tab-title h1 {
+  font-size: 35px;
+  color: #333;
+}
+.tab-title p {
+  font-size: 13px;
+  margin-top: 5px;
+}
+/* ==================================================== 
+Tab area - css
+==================================================== */
+.tab-area {
+  width: 85%;
+  padding: 0px 5px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab-area img {
+  width: 45%;
+  border-radius: 10px;
+}
+/* ==================================================== 
+about section - css
+==================================================== */
+.about {
+  width: 45%;
+  background: white;
+  border-radius: 10px;
+}
+
+/* ==================================================== 
+button container  - css
+==================================================== */
+.btn-container button {
+  border: none;
+  color: #333;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #d0dbe6;
+  font-size: 14px;
+  letter-spacing: 3px;
+  transition: all 0.5s ease;
+}
+.btn-container {
+  display: flex;
+}
+.btn-container .btn:first-child {
+  border-radius: 10px 0px 0px 0px;
+}
+.btn-container .btn:last-child {
+  border-radius: 0px 10px 0px 0px;
+}
+.btn:hover {
+  background: #e9f8fc;
+  color: #90c1cc;
+}
+/* ==================================================== 
+article section - css
+==================================================== */
+
+.about-content {
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 15px;
+  color: #333;
+  padding-top: 25px;
+  letter-spacing: 2px;
+}
+
+.content p {
+  font-size: 13px;
+  padding: 11px 0px;
+  line-height: 20px;
+  color: #454c4b;
+}
+/* ==================================================== 
+      hide content ------------- applied to js
+==================================================== */
+.btn.active {
+  background: white;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
